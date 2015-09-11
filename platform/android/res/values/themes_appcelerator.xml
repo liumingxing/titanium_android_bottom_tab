@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Generated with http://android-holo-colors.com -->
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+  <style name="MyTheme1" parent="@style/Theme.AppCompat.Translucent">
+        <item name="android:windowAnimationStyle">@style/Animation1</item>
+  </style>
+  
+  <style name="MyTheme2" parent="@style/Theme.AppCompat.Translucent">
+        <item name="android:windowAnimationStyle">@style/Animation2</item>
+  </style>
+  
+  <style name="Animation1" parent="android:Animation.Activity">
+        <item name="android:activityOpenEnterAnimation">@null</item>
+        <item name="android:activityOpenExitAnimation">@null</item>
+        <item name="android:activityCloseEnterAnimation">@null</item>
+        <item name="android:activityCloseExitAnimation">@null</item>
+  </style>
+  
+  <style name="Animation2" parent="android:Animation.Activity">
+        <item name="android:activityOpenEnterAnimation">@null</item>
+  </style>
+  
+ 
+
+</resources>
